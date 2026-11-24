@@ -1,0 +1,23 @@
+{
+  "name": "rate-limit-abuse-detection-system",
+  "version": "1.0.0",
+  "description": "Rate Limiting and API Abuse Detection System with Finite State Machine (FSM)",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "rate-limiting",
+    "api-abuse-detection",
+    "finite-state-machine",
+    "cybersecurity",
+    "express",
+    "react",
+    "mongodb"
+  ],
+  "author": "Cybersecurity & Full-Stack Engineering Team",
+  "license": "MIT"
+}

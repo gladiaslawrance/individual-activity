@@ -1,0 +1,23 @@
+{
+  "name": "rate-limit-abuse-detection-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Rate Limiting and API Abuse Detection System with Finite State Machine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed/seed.js",
+    "test": "node tests/fsm_ratelimit.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "uuid": "^9.0.1"
+  },
+  "author": "Cybersecurity & Full-Stack Engineering Team",
+  "license": "MIT"
+}
