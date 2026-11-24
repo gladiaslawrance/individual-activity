@@ -26,9 +26,11 @@ api.interceptors.response.use(
       // Clear token and redirect to login if unauthorized
       localStorage.removeItem('sec_auth_token');
       localStorage.removeItem('sec_admin_user');
-      if (window.location.pathname !== '/login') {
-        window.location.href = '/login';
-      }
+      
+if (!window.location.pathname.endsWith('/login')) {
+  window.location.href = `${import.meta.env.BASE_URL}login`;
+}
+
     }
     return Promise.reject(error);
   }
