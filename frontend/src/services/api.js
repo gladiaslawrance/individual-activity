@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-baseURL: 'https://individual-activity-0x2z.onrender.com/api',  headers: {
+  baseURL: 'https://individual-activity-0x2z.onrender.com/api',  headers: {
     'Content-Type': 'application/json',
   },
 });
